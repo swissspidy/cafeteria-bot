@@ -16,6 +16,10 @@ Pro tip: Set up a cron job! For example, this will post the lunch menu every day
 
 `* 10 * * * node /Users/Pascal/Workspace/GitHub/cafeteria-bot/run.js >/dev/null 2>&1`
 
+## Screenshot
+
+![Demo of the Slack integration](https://cldup.com/C3nHdsQ6JV.png)
+
 ## License
 
 GPLv3
