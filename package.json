@@ -1,0 +1,21 @@
+{
+	"name":         "cafeteria-bot",
+	"version":      "1.0.0",
+	"description":  "Node.js Slack bot to get the daily lunch menus at HSR",
+	"author":       "Pascal Birchler <pascal.birchler@hsr.ch>",
+	"main":         "run.js",
+	"repository":   {
+		"type": "git",
+		"url":  "https://github.com/swissspidy/cafeteria-bot"
+	},
+	"bugs":         {
+		"url": "https://github.com/swissspidy/cafeteria-bot/issues"
+	},
+	"dependencies": {
+		"cheerio":    "~0.20.0",
+		"underscore": "~1.8.3",
+		"request":    "~2.69.0",
+		"node-slack": "~0.0.7"
+	},
+	"license":      "GPL-3.0"
+}
