@@ -11,6 +11,10 @@
 	"bugs":         {
 		"url": "https://github.com/swissspidy/cafeteria-bot/issues"
 	},
+	"main":         "./lib/lunchhunter.js",
+	"bin":          {
+		"lunchhunter": "./run.js"
+	},
 	"dependencies": {
 		"cheerio":    "~0.20.0",
 		"underscore": "~1.8.3",
