@@ -53,7 +53,7 @@ var postToSlack = function ( cafeteria, offers ) {
 				{
 					"title": offer.title,
 					"value": offer.description,
-					"short": false,
+					"short": true,
 				}
 			);
 		} );
