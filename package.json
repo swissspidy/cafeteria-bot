@@ -16,9 +16,9 @@
 		"lunchhunter": "./run.js"
 	},
 	"dependencies": {
-		"cheerio":    "~0.20.0",
+		"cheerio":    "~0.22.0",
 		"underscore": "~1.8.3",
-		"request":    "~2.69.0",
+		"request":    "~2.79.0",
 		"node-slack": "~0.0.7"
 	},
 	"license":      "GPL-3.0"
