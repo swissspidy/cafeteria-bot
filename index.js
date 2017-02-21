@@ -3,4 +3,6 @@
 var LunchHunter = require( './lib/lunchhunter' ),
     lunchhunter = new LunchHunter();
 
-lunchhunter.run();
+exports.runBoyRun = function(event, context) {
+    lunchhunter.run();
+};
