@@ -3,7 +3,7 @@
 	"version":      "1.0.0",
 	"description":  "Node.js Slack bot to get the daily lunch menus at HSR",
 	"author":       "Pascal Birchler <pascal.birchler@hsr.ch>",
-	"main":         "run.js",
+	"main":         "./lib/lunchhunter.js",
 	"repository":   {
 		"type": "git",
 		"url":  "https://github.com/swissspidy/cafeteria-bot"
@@ -11,16 +11,15 @@
 	"bugs":         {
 		"url": "https://github.com/swissspidy/cafeteria-bot/issues"
 	},
-	"main":         "./lib/lunchhunter.js",
 	"bin":          {
-		"lunchhunter": "./run.js"
+		"lunchhunter": "./index.js"
 	},
 	"dependencies": {
+		"async":      "~2.4.0",
 		"cheerio":    "~0.22.0",
-		"underscore": "~1.8.3",
-		"request":    "~2.79.0",
 		"node-slack": "~0.0.7",
-		"async":      "~2.1.5"
+		"request":    "~2.81.0",
+		"underscore": "~1.8.3"
 	},
 	"license":      "GPL-3.0"
 }
